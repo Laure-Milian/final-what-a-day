@@ -1,0 +1,132 @@
+html {
+	background-color: #34314c;
+	color : #47b8e0;
+	font-family: "Open Sans", "Sans Serif";
+	font-size: 18px;
+	}
+
+.container {
+	width: 1000px;
+	margin: 50px auto;
+	color : #47b8e0;
+}
+
+
+/* Textes & inputs */
+
+.column {
+	display: inline-block;
+	width: 250px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 30px;
+}
+
+input, select {
+	background-color: transparent;
+	border: none;
+	width: 100%;
+	font-size: 18px;
+	color: #47b8e0;
+}
+
+.selecteur {
+	line-height: 40px;
+	border: 1px solid #47b8e0 ;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+
+/* Bouton valider */
+
+.row.button {
+	text-align: center;
+	width: 250px;
+	margin: 0 auto;
+}
+
+#checkButton {
+	border: 2px solid #47b8e0 ;
+	background-color: transparent;
+	color: #47b8e0;
+	height: 60px;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+#checkButton:hover {
+	color: #fff;
+	background-color: #47b8e0;
+	cursor : pointer;
+}
+
+
+
+
+/* Erreur */
+
+.inputError {
+	line-height: 40px;
+	border : 1px solid #ff7473;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.error {
+	background-color: #ff7473;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+}
+
+
+
+/* Affichage résultat pleine page */
+
+.overlay {
+	background-color: #9055A2;
+	color: #D499B9;
+	font-size: 100pt;
+	height: 100vh;
+	width: 100vw;
+	line-height: 100vh;
+	text-align: center;
+}
+
+.overlay > p {
+	font-size: 100pt;
+}
+
+
+/* Bouton reset */
+
+#restart {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	border-radius: 100px;
+	background-color: #D499B9;
+	color: #9055A2;
+	height: 100px;
+	width: 100px;
+	border: 1px solid #9055A2;
+	font-size: 40px;
+}
+
+#restart:hover {
+	cursor : pointer;
+}
+
+
+input {
+	width: 100%;
+	height: 20px;
+}
+
+

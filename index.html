@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>What a day!</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="column">
+			<div class="titre">Jour</div>		
+			<div id="divInputDay" class="selecteur"><input id="inputDay" type="number" min="1" max="31"></div>
+		</div>
+
+		<div class="column">
+			<div class="titre">Mois</div>
+			<div class="selecteur">
+				<select id="selectMonth" name="selectMonth">
+					<option value="1">janvier</option>
+					<option value="2">février</option>
+					<option value="3">mars</option>
+					<option value="4">avril</option>
+					<option value="5">mai</option>
+					<option value="6">juin</option>
+					<option value="7">juillet</option>
+					<option value="8">août</option>
+					<option value="9">septembre</option>
+					<option value="10">octobre</option>
+					<option value="11">novembre</option>
+					<option value="12">décembre</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="column">
+			<div class="titre">Année</div>
+			<div id="divInputYear" class="selecteur"><input id="inputYear" type="number"></div>
+		</div>
+
+		<div class="row button">
+			<button id="checkButton">Vérifier</button>
+		</div>
+
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/momentjs/2.15.2/moment-with-locales.min.js"></script>
+	<script src="app.js"></script>
+
+</body>
+</html>
