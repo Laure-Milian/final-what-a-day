@@ -42,7 +42,7 @@
 		displayDay : function(day) {
 			$("#message").remove();
 			$("body").html("<div class='overlay'>" + day + "<button id='restart' label='recommencer'>x</button></div>");
-			$("#restart").on("click", app.restart);
+			$("#restart").on("click", this.restart);
 		},
 
 		inputError : function(selector, message) {
